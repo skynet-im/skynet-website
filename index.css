@@ -1,3 +1,22 @@
+header {
+    background-image: url(assets/hero-wallpaper.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+nav.navbar {
+    background-color:#00000000 !important;
+    padding: 45px;
+}
+
+.main-title {
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
 .nav-link {
     text-transform: uppercase;
 }
