@@ -1,7 +1,8 @@
 header {
-    background-image: url(assets/hero-wallpaper.webp);
+    background-image: url(assets/test.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     height: 100vh;
     color: white;
@@ -13,6 +14,8 @@ nav.navbar {
 }
 
 .main-title {
+    padding-top: 95px;
+    padding-left: 95px !important;
     font-family: Montserrat;
     font-weight: 300;
 }
