@@ -89,13 +89,17 @@ nav.navbar {
 .nav-link {
     text-transform: uppercase;
 }
-#download {
+footer {
+    padding: 15px;
+    background-color: #222;
+    color: gray;
     text-align: center;
-    padding-top: 36px;
-    padding-bottom: 36px;
-    background-color: #10304C;
-    color: white;
+    font-size: .9em;
 }
-hr {
-    width: 24px;
+.footer-links{
+    padding: 5px;
+}
+a.footer-link{
+    color: #FFAB40 !important;
+    margin: 0 6px;
 }
