@@ -30,7 +30,19 @@ section {
     padding: 50px;
     text-align: center;
 }
-
+section.backdrop {
+    background-color: #f0f0f0;
+}
+.container.pad-l {
+    padding: 85px 25px;
+}
+.container.pad-s {
+    padding: 45px 25px;
+}
+.features-img {
+    max-height: 128px;
+    margin: 35px;
+}
 @media (min-width: 576px) { 
  
     nav.navbar.navbar-expand-y {
@@ -111,4 +123,8 @@ footer {
 a.footer-link{
     color: #FFAB40 !important;
     margin: 0 6px;
+}
+
+.text-left {
+    text-align: left;
 }

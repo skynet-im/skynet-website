@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header id="home">
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark navbar-expand-y" id="main-nav">
             <a class="navbar-brand js-scroll-trigger" href="#home">
@@ -41,6 +41,9 @@
                         <a class="nav-link js-scroll-trigger" href="#features">FEATURES</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#screenshots">SCREENSHOTS</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#download">DOWNLOAD</a>
                     </li>
                 </ul>
@@ -61,14 +64,65 @@
         </div>
     </header>
     <main role="main">
-        <section id="about">
+        <section class="backdrop" id="about">
             <h2>About us</h2>
+            <div class="container pad-s text-muted text-left">
+                <div class="row">
+                    <div class="col">
+                        Do you want secure messaging but none of the secure messengers out there provides the features
+                        you
+                        expect?
+                        Then lorem ipsum TODO
+                    </div>
+                    <div class="col">
+                        TODO: PUT A DIFFERENT SCREENSHOT HERE
+                        <img class="img-fluid" src="assets/app-mockup-2.png">
+                    </div>
+                </div>
+
+            </div>
         </section>
         <section id="features">
             <h2>Features</h2>
+            <div class="container pad-l">
+                <div class="row">
+                    <div class="col-sm">
+                        <img class="img-fluid features-img" src="assets/shield.svg">
+                        <h4>End-to-end encryption</h4>
+                        <div class="text-muted">
+                            Powerful end-to-end encryption protects your data so that nobody else can read your
+                            messages. Not even us.
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <img class="img-fluid features-img" src="assets/database.svg">
+                        <h4>Cloud-synchronized</h4>
+                        <div class="text-muted">
+                            Use Skynet on as many devices as you like and synchronize everything seamlessly between
+                            them.
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <img class="img-fluid features-img" src="assets/dashboard.svg">
+                        <h4>Fast as fuck</h4>
+                        <div class="text-muted">
+                            Latest networking technology ensures the fastest user experience even on the slowest
+                            internet connections.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="screenshots" class="backdrop">
+            <h2>Screenshots</h2>
+            TODO: Screenshots would be really cool to have here. Maybe some sleek sliding gallery?
         </section>
         <section id="download">
-            <h2>Download</h2>
+            <div class="container pad-s">
+                <h2>Download</h2>
+                TODO: A download link maybe?
+                This section definitely needs a background image
+            </div>
         </section>
     </main>
     <footer>
