@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Meet Skynet - the messenger you have been waiting for. With state-of-the-art features, encryption and cloud sync, Skynet is the last messenger you'll ever need.">
+    <meta name="description" content="Meet Skynet - the messenger you have been waiting for. With state-of-the-art features, encryption and cloud sync, Skynet is the next generation of messaging.">
     <meta name="google" content="notranslate">
     <meta name="keywords" content="Skynet,Skynet Messenger,Messenger,Chat,Application,Encrypted,Privacy,Cloud,Sync">
 
@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+<body data-spy="scroll" data-target=".navbar">
+    <header id="home">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark navbar-expand-y" id="main-nav">
             <a class="navbar-brand js-scroll-trigger" href="#home">
                 <img src="assets/app-icon.png" width="30" height="30" class="d-inline-block align-top" alt=""> Skynet
                 Messenger
@@ -46,22 +46,32 @@
             </div>
         </nav>
 
-        <div class="container-fluid main-title">
+        <div class="container main-title">
             <div class="row align-items-center">
-                <div class="col-4">
-                    <h1>Meet Skynet</h1>
-                    <h2>The future of messaging</h2>
+                <div class="col-sm-4">
+                    <div class="header">Meet Skynet</div>
+                    <div class="subheader">The future of messaging you have been waiting for</div>
+                    <a class="btn-link" href="#download"><button class="btn-round">Download</button></a>
                 </div>
-                <div class="col-8">
-                    <img class="img-fluid" src="assets/app-mockup.png">
+                <div class="col-sm-8">
+                    <img class="img-fluid" src="assets/app-mockup-2.png">
                 </div>
             </div>
         </div>
     </header>
     <main role="main">
-        <h2>Download</h2>
-        <h2>Features</h2>
-        <h2>About us<h2>
+        <section id="about">
+            <h2>About us</h2>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+        </section>
+        <section id="download">
+            <h2>Download</h2>
+            <hr>
+            <p>Download now from the play store</p>
+            <button>Download</button>
+        </section>
     </main>
 </body>
 
@@ -71,5 +81,6 @@
     crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
+<script src="index.js"></script>
 
 </html>

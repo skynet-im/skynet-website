@@ -1,5 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
 header {
-    background-image: url(assets/test.jpg);
+    background-image: url(assets/20180930_183712.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,17 +13,89 @@ header {
 }
 
 nav.navbar {
-    background-color:#00000000 !important;
-    padding: 45px;
+    background-color:#000000FF !important;
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    transition-duration: .4s;
+}
+
+.nav-link{
+    transition-duration: .4s;
+}
+
+@media (min-width: 576px) { 
+ 
+    nav.navbar.navbar-expand-y {
+        padding: 45px;
+        background-color:#00000000 !important;
+        box-shadow: none;
+        transition-duration: .4s;
+    }
+    
+    .main-title {
+        padding-top: 124px;
+        text-align: start !important;
+    }
+
+    .btn-round {
+        margin: 16px 0 !important;
+    }
+
 }
 
 .main-title {
-    padding-top: 95px;
-    padding-left: 95px !important;
     font-family: Montserrat;
     font-weight: 300;
+    padding-top: 96px;
+    text-align: center;
 }
 
+.header {
+    font-weight: 500 !important;
+    font-size: 2.5em;
+}
+
+.subheader {
+    font-size: 1.7em;
+}
+
+.btn-round {
+    display: block;
+    border: none;
+    outline: none;
+    background-color: #00000000;
+    color: white;
+    margin: 16px auto;
+    padding: 10px 32px;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition-duration: .6s;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+.btn-round:hover {
+    color: black;
+    background-color: white;
+    transition-duration: .6s;
+}
+.btn-round:focus {
+    outline: 0;
+}
+.btn-link {
+    color: white !important;
+    text-decoration: none !important;
+}
 .nav-link {
     text-transform: uppercase;
+}
+#download {
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: #10304C;
+    color: white;
+}
+hr {
+    width: 24px;
 }
