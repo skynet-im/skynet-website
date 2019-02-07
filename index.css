@@ -52,15 +52,17 @@ section.backdrop {
 .scaled-image{
     max-height: 480px;
 }
-@media (min-width: 576px) { 
- 
-    nav.navbar.navbar-expand-y {
+@media (min-width: 992px) {
+	nav.navbar.navbar-expand-y {
         padding: 45px;
         background-color:rgba(0,0,0,0) !important;
         box-shadow: none;
         transition-duration: .4s;
     }
-    
+}
+@media (min-width: 768px) { 
+
+
     .main-title {
         padding-top: 124px;
         text-align: left !important;
@@ -68,7 +70,7 @@ section.backdrop {
 
     .btn-round {
         margin: 16px 0 !important;
-    }
+    }    
 
 }
 
